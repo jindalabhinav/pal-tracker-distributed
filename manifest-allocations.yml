@@ -7,6 +7,6 @@ applications:
   - route: allocations-pal-polland.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-polland-cfapps.io/
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-polland.cfapps.io/
   services:
   - tracker-allocations-database
